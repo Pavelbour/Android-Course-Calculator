@@ -221,4 +221,34 @@
             android:textColor="#000000"
             android:textSize="24dp" />
     </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/button_C"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:onClick="CButtonOnClick"
+            android:text="C"
+            android:textColor="#000000"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/button_del"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:onClick="DelButtonOnClick"
+            android:text="Del"
+            android:textColor="#000000"
+            android:textSize="24dp" />
+    </TableRow>
 </TableLayout>

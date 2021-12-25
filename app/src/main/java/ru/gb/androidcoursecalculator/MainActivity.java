@@ -24,4 +24,17 @@ public class MainActivity extends AppCompatActivity {
         }
         display.setText(display.getText().toString() + button.getText().toString());
     }
+
+    public void CButtonOnClick(View view) {
+        display.setText("0");
+    }
+
+    public void DelButtonOnClick(View view) {
+        String number = display.getText().toString();
+        if (number.length() == 1) {
+            display.setText("0");
+        } else {
+            display.setText(number.subSequence(0, number.length() - 1));
+        }
+    }
 }
