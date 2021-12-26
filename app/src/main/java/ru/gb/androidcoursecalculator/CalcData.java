@@ -49,6 +49,14 @@ public class CalcData implements Parcelable {
         return this.number1.charAt(0) == '-';
     }
 
+    public void minus () {
+        if (this.isNegative()) {
+            this.number1 = this.number1.subSequence(1, this.number1.length()).toString();
+        } else {
+            this.number1 = "-" + this.number1;
+        }
+    }
+
     public void deleteLastDigit() {
         if (this.number1.length() == 1 || (this.isNegative() && this.number1.length() == 2)) {
             this.resetNumber1();

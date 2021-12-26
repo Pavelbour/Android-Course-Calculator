@@ -40,6 +40,11 @@ public class MainActivity extends AppCompatActivity {
         this.refreshDisplay();
     }
 
+    public void minusButtonOnClick(View view) {
+        calcData.minus();
+        this.refreshDisplay();
+    }
+
     public void openBigTextScreen(View view) {
         Intent intent = new Intent(this, BigTextActivity.class);
         intent.putExtra(KEY_CALC_DATA, calcData);
