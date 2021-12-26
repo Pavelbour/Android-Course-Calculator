@@ -250,5 +250,17 @@
             android:text="Del"
             android:textColor="#000000"
             android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/button_big_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:onClick="openBigTextScreen"
+            android:text="BT"
+            android:textColor="#000000"
+            android:textSize="24dp" />
     </TableRow>
 </TableLayout>
