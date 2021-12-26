@@ -57,6 +57,12 @@ public class CalcData implements Parcelable {
         }
     }
 
+    public void comma () {
+        if (!this.number1.contains(",")) {
+            this.number1 += ",";
+        }
+    }
+
     public void deleteLastDigit() {
         if (this.number1.length() == 1 || (this.isNegative() && this.number1.length() == 2)) {
             this.resetNumber1();

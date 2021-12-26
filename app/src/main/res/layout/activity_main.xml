@@ -208,6 +208,7 @@
             android:layout_marginHorizontal="10dp"
             android:layout_weight="1"
             android:backgroundTint="#FFFFFF"
+            android:onClick="commaButtonOnClick"
             android:text=","
             android:textColor="#000000"
             android:textSize="24dp" />
