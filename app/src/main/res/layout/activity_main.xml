@@ -24,49 +24,25 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_1"
-            android:layout_width="@dimen/default_button_width"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/default_button_horizontal_marge"
-            android:layout_weight="1"
-            android:backgroundTint="@color/default_button_background_tint"
+            style="@style/DefaultCalcButton"
             android:onClick="numberButtonOnClick"
-            android:text="@string/button_text_1"
-            android:textColor="@color/default_button_text_color"
-            android:textSize="@dimen/default_button_text_size" />
+            android:text="@string/button_text_1" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_2"
-            android:layout_width="@dimen/default_button_width"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/default_button_horizontal_marge"
-            android:layout_weight="1"
-            android:backgroundTint="@color/default_button_background_tint"
+            style="@style/DefaultCalcButton"
             android:onClick="numberButtonOnClick"
-            android:text="@string/button_text_2"
-            android:textColor="@color/default_button_text_color"
-            android:textSize="@dimen/default_button_text_size" />
+            android:text="@string/button_text_2" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_3"
-            android:layout_width="@dimen/default_button_width"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/default_button_horizontal_marge"
-            android:layout_weight="1"
-            android:backgroundTint="@color/default_button_background_tint"
+            style="@style/DefaultCalcButton"
             android:onClick="numberButtonOnClick"
-            android:text="@string/button_text_3"
-            android:textColor="@color/default_button_text_color"
-            android:textSize="@dimen/default_button_text_size" />
+            android:text="@string/button_text_3" />
 
         <com.google.android.material.button.MaterialButton
-            android:layout_width="@dimen/default_button_width"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/default_button_horizontal_marge"
-            android:layout_weight="1"
-            android:backgroundTint="@color/default_button_background_tint"
             android:text="@string/button_text_plus"
-            android:textColor="@color/default_button_text_color"
-            android:textSize="@dimen/default_button_text_size" />
+            style="@style/DefaultCalcButton"/>
     </TableRow>
 
     <TableRow
@@ -76,50 +52,26 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_4"
-            android:layout_width="@dimen/default_button_width"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/default_button_horizontal_marge"
-            android:layout_weight="1"
-            android:backgroundTint="@color/default_button_background_tint"
+            style="@style/DefaultCalcButton"
             android:onClick="numberButtonOnClick"
-            android:text="@string/button_text_4"
-            android:textColor="@color/default_button_text_color"
-            android:textSize="@dimen/default_button_text_size" />
+            android:text="@string/button_text_4" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_5"
-            android:layout_width="@dimen/default_button_width"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/default_button_horizontal_marge"
-            android:layout_weight="1"
-            android:backgroundTint="@color/default_button_background_tint"
+            style="@style/DefaultCalcButton"
             android:onClick="numberButtonOnClick"
-            android:text="@string/button_text_5"
-            android:textColor="@color/default_button_text_color"
-            android:textSize="@dimen/default_button_text_size" />
+            android:text="@string/button_text_5" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_6"
-            android:layout_width="@dimen/default_button_width"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/default_button_horizontal_marge"
-            android:layout_weight="1"
-            android:backgroundTint="@color/default_button_background_tint"
+            style="@style/DefaultCalcButton"
             android:onClick="numberButtonOnClick"
-            android:text="@string/button_text_6"
-            android:textColor="@color/default_button_text_color"
-            android:textSize="@dimen/default_button_text_size" />
+            android:text="@string/button_text_6" />
 
         <com.google.android.material.button.MaterialButton
-            android:layout_width="@dimen/default_button_width"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/default_button_horizontal_marge"
-            android:layout_weight="1"
-            android:backgroundTint="@color/default_button_background_tint"
+            style="@style/DefaultCalcButton"
             android:onClick="minusButtonOnClick"
-            android:text="@string/button_text_minus"
-            android:textColor="@color/default_button_text_color"
-            android:textSize="@dimen/default_button_text_size" />
+            android:text="@string/button_text_minus" />
     </TableRow>
 
     <TableRow
@@ -129,49 +81,25 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_7"
-            android:layout_width="@dimen/default_button_width"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/default_button_horizontal_marge"
-            android:layout_weight="1"
-            android:backgroundTint="@color/default_button_background_tint"
+            style="@style/DefaultCalcButton"
             android:onClick="numberButtonOnClick"
-            android:text="@string/button_text_7"
-            android:textColor="@color/default_button_text_color"
-            android:textSize="@dimen/default_button_text_size" />
+            android:text="@string/button_text_7" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_8"
-            android:layout_width="@dimen/default_button_width"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/default_button_horizontal_marge"
-            android:layout_weight="1"
-            android:backgroundTint="@color/default_button_background_tint"
+            style="@style/DefaultCalcButton"
             android:onClick="numberButtonOnClick"
-            android:text="@string/button_text_8"
-            android:textColor="@color/default_button_text_color"
-            android:textSize="@dimen/default_button_text_size" />
+            android:text="@string/button_text_8" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_9"
-            android:layout_width="@dimen/default_button_width"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/default_button_horizontal_marge"
-            android:layout_weight="1"
-            android:backgroundTint="@color/default_button_background_tint"
+            style="@style/DefaultCalcButton"
             android:onClick="numberButtonOnClick"
-            android:text="@string/button_text_9"
-            android:textColor="@color/default_button_text_color"
-            android:textSize="@dimen/default_button_text_size" />
+            android:text="@string/button_text_9" />
 
         <com.google.android.material.button.MaterialButton
-            android:layout_width="@dimen/default_button_width"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/default_button_horizontal_marge"
-            android:layout_weight="1"
-            android:backgroundTint="@color/default_button_background_tint"
-            android:text="@string/button_text_multiplication"
-            android:textColor="@color/default_button_text_color"
-            android:textSize="@dimen/default_button_text_size" />
+            style="@style/DefaultCalcButton"
+            android:text="@string/button_text_multiplication" />
     </TableRow>
 
     <TableRow
@@ -180,47 +108,23 @@
         android:layout_gravity="center_horizontal">
 
         <com.google.android.material.button.MaterialButton
-            android:layout_width="@dimen/default_button_width"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/default_button_horizontal_marge"
-            android:layout_weight="1"
-            android:backgroundTint="@color/default_button_background_tint"
-            android:text="@string/button_text_equal"
-            android:textColor="@color/default_button_text_color"
-            android:textSize="@dimen/default_button_text_size" />
+            style="@style/DefaultCalcButton"
+            android:text="@string/button_text_equal" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_0"
-            android:layout_width="@dimen/default_button_width"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/default_button_horizontal_marge"
-            android:layout_weight="1"
-            android:backgroundTint="@color/default_button_background_tint"
+            style="@style/DefaultCalcButton"
             android:onClick="numberButtonOnClick"
-            android:text="@string/button_text_0"
-            android:textColor="@color/default_button_text_color"
-            android:textSize="@dimen/default_button_text_size" />
+            android:text="@string/button_text_0" />
 
         <com.google.android.material.button.MaterialButton
-            android:layout_width="@dimen/default_button_width"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/default_button_horizontal_marge"
-            android:layout_weight="1"
-            android:backgroundTint="@color/default_button_background_tint"
+            style="@style/DefaultCalcButton"
             android:onClick="commaButtonOnClick"
-            android:text="@string/button_text_comma"
-            android:textColor="@color/default_button_text_color"
-            android:textSize="@dimen/default_button_text_size" />
+            android:text="@string/button_text_comma" />
 
         <com.google.android.material.button.MaterialButton
-            android:layout_width="@dimen/default_button_width"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/default_button_horizontal_marge"
-            android:layout_weight="1"
-            android:backgroundTint="@color/default_button_background_tint"
-            android:text="@string/button_text_division"
-            android:textColor="@color/default_button_text_color"
-            android:textSize="@dimen/default_button_text_size" />
+            style="@style/DefaultCalcButton"
+            android:text="@string/button_text_division" />
     </TableRow>
 
     <TableRow
@@ -230,38 +134,20 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_C"
-            android:layout_width="@dimen/default_button_width"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/default_button_horizontal_marge"
-            android:layout_weight="1"
-            android:backgroundTint="@color/default_button_background_tint"
+            style="@style/DefaultCalcButton"
             android:onClick="CButtonOnClick"
-            android:text="@string/text_button_c"
-            android:textColor="@color/default_button_text_color"
-            android:textSize="@dimen/default_button_text_size" />
+            android:text="@string/text_button_c" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_del"
-            android:layout_width="@dimen/default_button_width"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/default_button_horizontal_marge"
-            android:layout_weight="1"
-            android:backgroundTint="@color/default_button_background_tint"
+            style="@style/DefaultCalcButton"
             android:onClick="DelButtonOnClick"
-            android:text="@string/button_text_del"
-            android:textColor="@color/default_button_text_color"
-            android:textSize="@dimen/default_button_text_size" />
+            android:text="@string/button_text_del" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_big_text"
-            android:layout_width="@dimen/default_button_width"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/default_button_horizontal_marge"
-            android:layout_weight="1"
-            android:backgroundTint="@color/default_button_background_tint"
+            style="@style/DefaultCalcButton"
             android:onClick="openBigTextScreen"
-            android:text="@string/button_string_bt"
-            android:textColor="@color/default_button_text_color"
-            android:textSize="@dimen/default_button_text_size" />
+            android:text="@string/button_string_bt" />
     </TableRow>
 </TableLayout>
