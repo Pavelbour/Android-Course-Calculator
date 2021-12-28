@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@drawable/pavement">
+    android:background="@drawable/pavement"
+    tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/display"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -23,36 +24,40 @@
         android:layout_marginTop="36dp">
 
         <Button
+            android:id="@+id/button_1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="10dp"
             android:layout_weight="1"
             android:backgroundTint="#FFFFFF"
+            android:onClick="numberButtonOnClick"
             android:text="1"
             android:textColor="#000000"
             android:textSize="24dp" />
 
         <Button
+            android:id="@+id/button_2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="10dp"
             android:layout_weight="1"
             android:backgroundTint="#FFFFFF"
+            android:onClick="numberButtonOnClick"
             android:text="2"
             android:textColor="#000000"
             android:textSize="24dp" />
 
-
         <Button
+            android:id="@+id/button_3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="10dp"
             android:layout_weight="1"
             android:backgroundTint="#FFFFFF"
+            android:onClick="numberButtonOnClick"
             android:text="3"
             android:textColor="#000000"
             android:textSize="24dp" />
-
 
         <Button
             android:layout_width="0dp"
@@ -63,7 +68,6 @@
             android:text="+"
             android:textColor="#000000"
             android:textSize="24dp" />
-
     </TableRow>
 
     <TableRow
@@ -72,47 +76,51 @@
         android:layout_gravity="center_horizontal">
 
         <Button
+            android:id="@+id/button_4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="10dp"
             android:layout_weight="1"
             android:backgroundTint="#FFFFFF"
+            android:onClick="numberButtonOnClick"
             android:text="4"
             android:textColor="#000000"
             android:textSize="24dp" />
 
         <Button
+            android:id="@+id/button_5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="10dp"
             android:layout_weight="1"
             android:backgroundTint="#FFFFFF"
+            android:onClick="numberButtonOnClick"
             android:text="5"
             android:textColor="#000000"
             android:textSize="24dp" />
 
-
         <Button
+            android:id="@+id/button_6"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="10dp"
             android:layout_weight="1"
             android:backgroundTint="#FFFFFF"
+            android:onClick="numberButtonOnClick"
             android:text="6"
             android:textColor="#000000"
             android:textSize="24dp" />
 
-
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="10dp"
             android:layout_weight="1"
             android:backgroundTint="#FFFFFF"
+            android:onClick="minusButtonOnClick"
             android:text="-"
             android:textColor="#000000"
             android:textSize="24dp" />
-
     </TableRow>
 
     <TableRow
@@ -121,36 +129,40 @@
         android:layout_gravity="center_horizontal">
 
         <Button
+            android:id="@+id/button_7"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="10dp"
             android:layout_weight="1"
             android:backgroundTint="#FFFFFF"
+            android:onClick="numberButtonOnClick"
             android:text="7"
             android:textColor="#000000"
             android:textSize="24dp" />
 
         <Button
+            android:id="@+id/button_8"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="10dp"
             android:layout_weight="1"
             android:backgroundTint="#FFFFFF"
+            android:onClick="numberButtonOnClick"
             android:text="8"
             android:textColor="#000000"
             android:textSize="24dp" />
 
-
         <Button
+            android:id="@+id/button_9"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="10dp"
             android:layout_weight="1"
             android:backgroundTint="#FFFFFF"
+            android:onClick="numberButtonOnClick"
             android:text="9"
             android:textColor="#000000"
             android:textSize="24dp" />
-
 
         <Button
             android:layout_width="0dp"
@@ -161,7 +173,6 @@
             android:text="*"
             android:textColor="#000000"
             android:textSize="24dp" />
-
     </TableRow>
 
     <TableRow
@@ -180,15 +191,16 @@
             android:textSize="24dp" />
 
         <Button
+            android:id="@+id/button_0"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="10dp"
             android:layout_weight="1"
             android:backgroundTint="#FFFFFF"
+            android:onClick="numberButtonOnClick"
             android:text="0"
             android:textColor="#000000"
             android:textSize="24dp" />
-
 
         <Button
             android:layout_width="0dp"
@@ -196,10 +208,10 @@
             android:layout_marginHorizontal="10dp"
             android:layout_weight="1"
             android:backgroundTint="#FFFFFF"
+            android:onClick="commaButtonOnClick"
             android:text=","
             android:textColor="#000000"
             android:textSize="24dp" />
-
 
         <Button
             android:layout_width="0dp"
@@ -210,6 +222,47 @@
             android:text="/"
             android:textColor="#000000"
             android:textSize="24dp" />
+    </TableRow>
 
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/button_C"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:onClick="CButtonOnClick"
+            android:text="C"
+            android:textColor="#000000"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/button_del"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:onClick="DelButtonOnClick"
+            android:text="Del"
+            android:textColor="#000000"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/button_big_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:onClick="openBigTextScreen"
+            android:text="BT"
+            android:textColor="#000000"
+            android:textSize="24dp" />
     </TableRow>
 </TableLayout>
