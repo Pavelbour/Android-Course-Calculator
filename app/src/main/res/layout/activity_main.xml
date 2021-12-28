@@ -22,7 +22,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="@dimen/row_margin_top">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_1"
             android:layout_width="@dimen/default_button_width"
             android:layout_height="wrap_content"
@@ -34,7 +34,7 @@
             android:textColor="@color/default_button_text_color"
             android:textSize="@dimen/default_button_text_size" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_2"
             android:layout_width="@dimen/default_button_width"
             android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
             android:textColor="@color/default_button_text_color"
             android:textSize="@dimen/default_button_text_size" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_3"
             android:layout_width="@dimen/default_button_width"
             android:layout_height="wrap_content"
@@ -58,7 +58,7 @@
             android:textColor="@color/default_button_text_color"
             android:textSize="@dimen/default_button_text_size" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:layout_width="@dimen/default_button_width"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/default_button_horizontal_marge"
@@ -74,7 +74,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="center_horizontal">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_4"
             android:layout_width="@dimen/default_button_width"
             android:layout_height="wrap_content"
@@ -86,7 +86,7 @@
             android:textColor="@color/default_button_text_color"
             android:textSize="@dimen/default_button_text_size" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_5"
             android:layout_width="@dimen/default_button_width"
             android:layout_height="wrap_content"
@@ -98,7 +98,7 @@
             android:textColor="@color/default_button_text_color"
             android:textSize="@dimen/default_button_text_size" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_6"
             android:layout_width="@dimen/default_button_width"
             android:layout_height="wrap_content"
@@ -110,7 +110,7 @@
             android:textColor="@color/default_button_text_color"
             android:textSize="@dimen/default_button_text_size" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:layout_width="@dimen/default_button_width"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/default_button_horizontal_marge"
@@ -127,7 +127,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="center_horizontal">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_7"
             android:layout_width="@dimen/default_button_width"
             android:layout_height="wrap_content"
@@ -139,7 +139,7 @@
             android:textColor="@color/default_button_text_color"
             android:textSize="@dimen/default_button_text_size" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_8"
             android:layout_width="@dimen/default_button_width"
             android:layout_height="wrap_content"
@@ -151,7 +151,7 @@
             android:textColor="@color/default_button_text_color"
             android:textSize="@dimen/default_button_text_size" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_9"
             android:layout_width="@dimen/default_button_width"
             android:layout_height="wrap_content"
@@ -163,7 +163,7 @@
             android:textColor="@color/default_button_text_color"
             android:textSize="@dimen/default_button_text_size" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:layout_width="@dimen/default_button_width"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/default_button_horizontal_marge"
@@ -179,7 +179,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="center_horizontal">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:layout_width="@dimen/default_button_width"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/default_button_horizontal_marge"
@@ -189,7 +189,7 @@
             android:textColor="@color/default_button_text_color"
             android:textSize="@dimen/default_button_text_size" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_0"
             android:layout_width="@dimen/default_button_width"
             android:layout_height="wrap_content"
@@ -201,7 +201,7 @@
             android:textColor="@color/default_button_text_color"
             android:textSize="@dimen/default_button_text_size" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:layout_width="@dimen/default_button_width"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/default_button_horizontal_marge"
@@ -212,7 +212,7 @@
             android:textColor="@color/default_button_text_color"
             android:textSize="@dimen/default_button_text_size" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:layout_width="@dimen/default_button_width"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/default_button_horizontal_marge"
@@ -228,7 +228,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="center_horizontal">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_C"
             android:layout_width="@dimen/default_button_width"
             android:layout_height="wrap_content"
@@ -240,7 +240,7 @@
             android:textColor="@color/default_button_text_color"
             android:textSize="@dimen/default_button_text_size" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_del"
             android:layout_width="@dimen/default_button_width"
             android:layout_height="wrap_content"
@@ -252,7 +252,7 @@
             android:textColor="@color/default_button_text_color"
             android:textSize="@dimen/default_button_text_size" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_big_text"
             android:layout_width="@dimen/default_button_width"
             android:layout_height="wrap_content"
