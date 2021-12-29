@@ -20,4 +20,5 @@
     <string name="text_button_c">C</string>
     <string name="button_text_del">Del</string>
     <string name="button_string_bt">BT</string>
+    <string name="button_text_t">T</string>
 </resources>
