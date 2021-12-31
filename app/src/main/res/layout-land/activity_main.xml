@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:background="@drawable/pavement"
     tools:context=".MainActivity">
 
@@ -40,6 +40,16 @@
             style="@style/DefaultCalcButton"
             android:onClick="numberButtonOnClick"
             android:text="@string/button_text_3" />
+
+        <com.google.android.material.button.MaterialButton
+            android:text="@string/button_text_plus"
+            style="@style/DefaultCalcButton"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_C"
+            style="@style/DefaultCalcButton"
+            android:onClick="CButtonOnClick"
+            android:text="@string/text_button_c" />
     </TableRow>
 
     <TableRow
@@ -64,6 +74,17 @@
             style="@style/DefaultCalcButton"
             android:onClick="numberButtonOnClick"
             android:text="@string/button_text_6" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/DefaultCalcButton"
+            android:onClick="minusButtonOnClick"
+            android:text="@string/button_text_minus" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_del"
+            style="@style/DefaultCalcButton"
+            android:onClick="DelButtonOnClick"
+            android:text="@string/button_text_del" />
     </TableRow>
 
     <TableRow
@@ -88,6 +109,16 @@
             style="@style/DefaultCalcButton"
             android:onClick="numberButtonOnClick"
             android:text="@string/button_text_9" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/DefaultCalcButton"
+            android:text="@string/button_text_multiplication" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_big_text"
+            style="@style/DefaultCalcButton"
+            android:onClick="openBigTextScreen"
+            android:text="@string/button_string_bt" />
     </TableRow>
 
     <TableRow
@@ -109,54 +140,11 @@
             style="@style/DefaultCalcButton"
             android:onClick="commaButtonOnClick"
             android:text="@string/button_text_comma" />
-    </TableRow>
-
-    <TableRow>
-        <com.google.android.material.button.MaterialButton
-            android:text="@string/button_text_plus"
-            style="@style/DefaultCalcButton"/>
-
-        <com.google.android.material.button.MaterialButton
-            style="@style/DefaultCalcButton"
-            android:onClick="minusButtonOnClick"
-            android:text="@string/button_text_minus" />
-
-        <com.google.android.material.button.MaterialButton
-            style="@style/DefaultCalcButton"
-            android:text="@string/button_text_multiplication" />
-    </TableRow>
-
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="center_horizontal">
 
         <com.google.android.material.button.MaterialButton
             style="@style/DefaultCalcButton"
             android:text="@string/button_text_division" />
 
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/button_C"
-            style="@style/DefaultCalcButton"
-            android:onClick="CButtonOnClick"
-            android:text="@string/text_button_c" />
-
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/button_del"
-            style="@style/DefaultCalcButton"
-            android:onClick="DelButtonOnClick"
-            android:text="@string/button_text_del" />
-    </TableRow>
-
-    <TableRow>
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/button_big_text"
-            style="@style/DefaultCalcButton"
-            android:onClick="openBigTextScreen"
-            android:text="@string/button_string_bt" />
-    </TableRow>
-
-    <TableRow>
         <com.google.android.material.button.MaterialButton
             style="@style/DefaultCalcButton"
             android:text="@string/button_text_t" />
