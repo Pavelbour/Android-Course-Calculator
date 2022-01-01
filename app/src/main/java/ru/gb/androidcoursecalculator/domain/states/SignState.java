@@ -20,7 +20,7 @@ public class SignState extends BaseState {
                 return new FloatState(input);
             case NUM_0:
                 input.add(InputSymbol.NUM_0);
-                return new ZeroState();
+                return new ZeroState(input);
             case NUM_1:
             case NUM_2:
             case NUM_3:

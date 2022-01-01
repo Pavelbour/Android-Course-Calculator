@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        display = findViewById(R.id.display);
+        display = findViewById(R.id.calculation_result_text_view);
         calcData = new CalcData();
         display.setText(calcData.getNumber1());
     }
