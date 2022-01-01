@@ -24,8 +24,6 @@ public class FloatState extends BaseState {
             case NUM_9:
                 input.add(inputSymbol);
                 return this;
-            case CLEAR:
-                return new SignState();
             default:
                 return this;
         }

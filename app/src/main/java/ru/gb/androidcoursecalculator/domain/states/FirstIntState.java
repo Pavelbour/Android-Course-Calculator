@@ -31,8 +31,6 @@ public class FirstIntState extends BaseState {
             case NUM_0:
                 input.add(InputSymbol.NUM_0);
                 return new ZeroState(input);
-            case CLEAR:
-                return new SignState();
             default:
                 return this;
         }

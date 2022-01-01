@@ -16,8 +16,6 @@ public class ZeroState extends BaseState {
             case DOT:
                 input.add(InputSymbol.DOT);
                 return new FloatState(input);
-            case CLEAR:
-                return new SignState();
             default:
                 return this;
         }

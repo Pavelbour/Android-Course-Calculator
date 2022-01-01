@@ -32,8 +32,6 @@ public class SignState extends BaseState {
             case NUM_9:
                 input.add(inputSymbol);
                 return new IntState(input);
-            case CLEAR:
-                return new SignState();
             default:
                 return this;
         }
