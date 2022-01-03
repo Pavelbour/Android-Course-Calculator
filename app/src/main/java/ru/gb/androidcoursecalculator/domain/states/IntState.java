@@ -1,10 +1,12 @@
 package ru.gb.androidcoursecalculator.domain.states;
 
+import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
 import ru.gb.androidcoursecalculator.domain.entities.InputSymbol;
 
-public class IntState extends BaseState {
+public class IntState extends BaseState implements Serializable {
 
     public IntState(List<InputSymbol> input) {
         this.input.addAll(input);
@@ -26,8 +28,9 @@ public class IntState extends BaseState {
                 input.add(inputSymbol);
                 return this;
             case DOT:
-                input.add(InputSymbol.DOT);
-                return new FloatState(input);
+                List<InputSymbol> newInput = new ArrayList<>(input);
+                newInput.add(InputSymbol.DOT);
+                return new FloatState(newInput);
             default:
                 return this;
         }

@@ -1,10 +1,11 @@
 package ru.gb.androidcoursecalculator.domain.states;
 
+import java.io.Serializable;
 import java.util.List;
 
 import ru.gb.androidcoursecalculator.domain.entities.InputSymbol;
 
-public class FirstIntState extends BaseState {
+public class FirstIntState extends BaseState implements Serializable {
 
     public FirstIntState(List<InputSymbol> input) {
         this.input.addAll(input);

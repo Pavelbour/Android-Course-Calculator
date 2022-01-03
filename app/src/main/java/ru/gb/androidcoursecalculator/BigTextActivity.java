@@ -7,32 +7,42 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+import ru.gb.androidcoursecalculator.domain.CalculatorModel;
+
 public class BigTextActivity extends Activity {
-    private CalcData calcData;
-    private TextView display;
-    private final static String KEY_CALC_DATA = "key_calc_data";
+    private CalculatorModel calculatorModel;
+    private TextView calculationResultTextView;
+    private String resultString;
+
+    private final static String KEY_CALC_MODEL = "key_calc_model";
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_big_text);
-        display = findViewById(R.id.result);
-        calcData = (CalcData) getIntent().getExtras().getParcelable(KEY_CALC_DATA);
-        if (savedInstanceState != null && savedInstanceState.containsKey(KEY_CALC_DATA)) {
-            calcData = (CalcData) savedInstanceState.getSerializable(KEY_CALC_DATA);
+        calculationResultTextView = findViewById(R.id.result_text_view);
+        resultString = getIntent().getExtras().getString(KEY_CALC_MODEL);
+        if (savedInstanceState != null && savedInstanceState.containsKey(KEY_CALC_MODEL)) {
+            resultString = savedInstanceState.getString(KEY_CALC_MODEL);
         }
-        refreshDisplay();
+        calculationResultTextView.setText(resultString);
     }
+
+    public void onSaveInstanceState(@NonNull Bundle instanceState) {
+        super.onSaveInstanceState(instanceState);
+        instanceState.putString(KEY_CALC_MODEL, resultString);
+    }
+
 
     @Override
     protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
-        this.calcData = (CalcData) savedInstanceState.getParcelable(KEY_CALC_DATA);
-        this.refreshDisplay();
+        resultString = savedInstanceState.getString(KEY_CALC_MODEL);
+        updateResultTextView();
     }
 
-    private void refreshDisplay() {
-        display.setText(calcData.getNumber1());
+    private void updateResultTextView() {
+        calculationResultTextView.setText(resultString);
     }
 
 

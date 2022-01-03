@@ -21,4 +21,23 @@
     <string name="button_text_del">Del</string>
     <string name="button_string_bt">BT</string>
     <string name="button_text_t">T</string>
+
+    <string name="zero_char">0</string>
+    <string name="one_char">1</string>
+    <string name="two_char">2</string>
+    <string name="three_char">3</string>
+    <string name="four_char">4</string>
+    <string name="five_char">5</string>
+    <string name="six_char">6</string>
+    <string name="seven_char">7</string>
+    <string name="eight_char">8</string>
+    <string name="nine_char">9</string>
+    <string name="ten_char">0</string>
+
+    <string name="minus_char">-</string>
+    <string name="plus_char">+</string>
+    <string name="division_char">/</string>
+    <string name="multiplication_char">*</string>
+    <string name="dot_char">,</string>
+    <string name="default_char">#</string>
 </resources>

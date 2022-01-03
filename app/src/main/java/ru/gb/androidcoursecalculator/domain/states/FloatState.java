@@ -1,10 +1,11 @@
 package ru.gb.androidcoursecalculator.domain.states;
 
+import java.io.Serializable;
 import java.util.List;
 
 import ru.gb.androidcoursecalculator.domain.entities.InputSymbol;
 
-public class FloatState extends BaseState {
+public class FloatState extends BaseState implements Serializable {
     public FloatState(List<InputSymbol> input) {
         this.input.addAll(input);
     }

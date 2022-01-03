@@ -1,8 +1,10 @@
 package ru.gb.androidcoursecalculator.domain.states;
 
+import java.io.Serializable;
+
 import ru.gb.androidcoursecalculator.domain.entities.InputSymbol;
 
-public class SignState extends BaseState {
+public class SignState extends BaseState implements Serializable {
 
     @Override
     public BaseState onClickButton(InputSymbol inputSymbol) {
