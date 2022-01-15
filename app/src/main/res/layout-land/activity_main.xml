@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/display"
+        android:id="@+id/calculation_result_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/text_view_margin_top"
@@ -24,31 +24,28 @@
         android:layout_marginTop="@dimen/row_margin_top">
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/button_1"
+            android:id="@+id/digit_one_button"
             style="@style/DefaultCalcButton"
-            android:onClick="numberButtonOnClick"
             android:text="@string/button_text_1" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/button_2"
+            android:id="@+id/digit_two_button"
             style="@style/DefaultCalcButton"
-            android:onClick="numberButtonOnClick"
             android:text="@string/button_text_2" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/button_3"
+            android:id="@+id/digit_three_button"
             style="@style/DefaultCalcButton"
-            android:onClick="numberButtonOnClick"
             android:text="@string/button_text_3" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/operation_addition_button"
             android:text="@string/button_text_plus"
             style="@style/DefaultCalcButton"/>
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/button_C"
+            android:id="@+id/clear_display_button"
             style="@style/DefaultCalcButton"
-            android:onClick="CButtonOnClick"
             android:text="@string/text_button_c" />
     </TableRow>
 
@@ -58,32 +55,28 @@
         android:layout_gravity="center_horizontal">
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/button_4"
+            android:id="@+id/digit_four_button"
             style="@style/DefaultCalcButton"
-            android:onClick="numberButtonOnClick"
             android:text="@string/button_text_4" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/button_5"
+            android:id="@+id/digit_five_button"
             style="@style/DefaultCalcButton"
-            android:onClick="numberButtonOnClick"
             android:text="@string/button_text_5" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/button_6"
+            android:id="@+id/digit_six_button"
             style="@style/DefaultCalcButton"
-            android:onClick="numberButtonOnClick"
             android:text="@string/button_text_6" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/operation_subtraction_button"
             style="@style/DefaultCalcButton"
-            android:onClick="minusButtonOnClick"
             android:text="@string/button_text_minus" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/button_del"
+            android:id="@+id/delete_last_char_button"
             style="@style/DefaultCalcButton"
-            android:onClick="DelButtonOnClick"
             android:text="@string/button_text_del" />
     </TableRow>
 
@@ -93,31 +86,27 @@
         android:layout_gravity="center_horizontal">
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/button_7"
+            android:id="@+id/digit_seven_button"
             style="@style/DefaultCalcButton"
-            android:onClick="numberButtonOnClick"
             android:text="@string/button_text_7" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/button_8"
+            android:id="@+id/digit_eight_button"
             style="@style/DefaultCalcButton"
-            android:onClick="numberButtonOnClick"
             android:text="@string/button_text_8" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/button_9"
+            android:id="@+id/digit_nine_button"
             style="@style/DefaultCalcButton"
-            android:onClick="numberButtonOnClick"
             android:text="@string/button_text_9" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/operation_multiplication_button"
             style="@style/DefaultCalcButton"
             android:text="@string/button_text_multiplication" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/button_big_text"
             style="@style/DefaultCalcButton"
-            android:onClick="openBigTextScreen"
             android:text="@string/button_string_bt" />
     </TableRow>
 
@@ -127,21 +116,22 @@
         android:layout_gravity="center_horizontal">
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/operation_equal_button"
             style="@style/DefaultCalcButton"
             android:text="@string/button_text_equal" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/button_0"
+            android:id="@+id/digit_zero_button"
             style="@style/DefaultCalcButton"
-            android:onClick="numberButtonOnClick"
             android:text="@string/button_text_0" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/digit_dot_button"
             style="@style/DefaultCalcButton"
-            android:onClick="commaButtonOnClick"
             android:text="@string/button_text_comma" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/operation_division_button"
             style="@style/DefaultCalcButton"
             android:text="@string/button_text_division" />
 
